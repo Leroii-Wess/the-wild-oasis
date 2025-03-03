@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import supabase, { supabaseUrl } from "./Supabase";
 
 export async function getCabins() {

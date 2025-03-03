@@ -59,12 +59,15 @@ function Filter({ filterField, options }) {
           {option.label}
         </FilterButton>
       ))}
-      {/* <FilterButton onClick={() => handleClick("all")}>All</FilterButton>
-      <FilterButton onClick={() => handleClick("no-discount")}>
-        No Discount
-      </FilterButton> */}
     </StyledFilter>
   );
 }
 
 export default Filter;
+
+{
+  /* <FilterButton onClick={() => handleClick("all")}>All</FilterButton>
+      <FilterButton onClick={() => handleClick("no-discount")}>
+        No Discount
+      </FilterButton> */
+}
